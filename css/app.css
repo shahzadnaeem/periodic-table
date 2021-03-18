@@ -54,13 +54,17 @@
   #boron, #aluminium {
     grid-column-start: 13;
   }
-  #cerium, #thorium {
+
+  #hafnium, #rutherfordium {
     grid-column-start: 4;
   }
-  .periodic-table > li:nth-child(n+58):nth-last-child(n+48) {
+  #lanthanum, #actinium {
+    grid-column-start: 3;
+  }
+  .periodic-table > li:nth-child(n+57):nth-last-child(n+48) {
     grid-row-start: 8;
   }
-  .periodic-table > li:nth-child(n+90):nth-last-child(n+16) {
+  .periodic-table > li:nth-child(n+89):nth-last-child(n+16) {
     grid-row-start: 9;
   }
   .periodic-table:before {
@@ -89,6 +93,7 @@
   }
   .periodic-table .lanthanide {
     background: hsl(183, 54%, 84%);
+    margin-top: 2rem;
   }
   .periodic-table .actinide {
     background: hsl(82, 60%, 56%);  
